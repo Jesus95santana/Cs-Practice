@@ -1,25 +1,23 @@
 using System;
 
-namespace FavoriteNumber
+namespace DocumentationHunt
 {
   class Program
   {
     static void Main(string[] args)
     {
-      // Ask user for fave number
-      Console.Write("Enter your favorite number!: ");
 
-      // Turn that answer into an int
+      double numberOne = 6.5;
+      double numberTwo = 4;
 
-      // Attempt 1: use implicit conversion
-      // int faveNumber = Console.ReadLine();
+      // Raise numberOne to the numberTwo power
+      Console.WriteLine(Math.Pow(numberOne, numberTwo));
 
-      // Attempt 2: use explicit conversion
-      // int faveNumber = (int)Console.ReadLine();
+      // Round numberOne up
+      Console.WriteLine(Math.Ceiling(numberOne));
 
-      // Attempt 3: use Convert method
-      int faveNumber = Convert.ToInt32(Console.ReadLine());
-
+      // Find the larger number between numberOne and numberTwo
+      Console.WriteLine(Math.Max(numberOne, numberTwo));
 
     }
   }
