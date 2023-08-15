@@ -1,3 +1,3 @@
 ﻿int pepperLength = 4;
-
-if() {}
+string message = (pepperLength >= 3.5 ? "ready" : "wait a little longer");
+Console.WriteLine(message);
